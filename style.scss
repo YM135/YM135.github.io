@@ -18,7 +18,7 @@ html {
 
 body {
 	background-image: url("http://cdn.pcwallart.com/images/weed-smoke-cloud-wallpaper-3.jpg");
-  font: 18px/1.4;
+  font: 18px/1.4 $helvetica;
   color: #d9b310;
 }
 .container {
@@ -30,7 +30,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #328cc1; font-weight: bold;
+  color: #328cc1; 
+font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -38,8 +39,8 @@ h1, h2, h3, h4, h5, h6 {
 
   @include mobile {
     line-height: 1.4;
- }
   }
+ }
 
 h1 {
   font-size: 64px;
