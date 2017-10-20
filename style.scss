@@ -26,7 +26,12 @@ body {
 .container {
   margin: 0 auto;
   max-width: 740px;
-  padding: 0 10px;
+ border: 1px solid #015249;
+    background-color: #015249;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
   width: 100%;
 }
 
@@ -38,12 +43,6 @@ text-shadow: 2px 2px;
 	
   line-height: 1.7;
   margin: 1em 0 15px;
-  border: 1px solid #015249;
-    background-color: #015249;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
 
   @include mobile {
     line-height: 1.4;
