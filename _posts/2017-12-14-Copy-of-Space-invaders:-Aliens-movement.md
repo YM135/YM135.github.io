@@ -1,5 +1,5 @@
 ---
-title: Copy of Space invaders: Aliens movement
+title: Space invaders: Aliens movement
 layout: post
 author: yonal.malalasekara
 permalink: /copy-of-space-invaders:-aliens-movement/
