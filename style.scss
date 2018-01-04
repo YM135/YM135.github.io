@@ -26,13 +26,14 @@ background-image: url("http://2013merrychristmas.com/wp-content/uploads/2017/12/
 .container {
   margin: 0 auto;
   max-width: 740px;
- border: 6px solid #ffd900;
+ border: 10px solid transparent;
     background-color: #ff1a1a;
     padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 80px;
-  width: 100%;
+border-image: url(border.png) 30 round;  
+width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
